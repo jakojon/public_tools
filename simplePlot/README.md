@@ -23,6 +23,7 @@ You can get this by:
 
 If you have the following files in the ~/DATA/ directory
 
+```
 > cat d.1.txt
   122
 > cat d.2.txt
@@ -35,5 +36,6 @@ If you have the following files in the ~/DATA/ directory
   122
 > cat d.6.txt
   130
+```
 
 NOTE: That the script will sort the files by create time
