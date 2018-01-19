@@ -56,6 +56,13 @@ fig, ax = plt.subplots()
 xValues = list(range(1, len(vals)+1))
 line1, = ax.plot(xValues, vals, linewidth=2, marker='x', label=args.label)
 
+# This is a personal preference, but for analyzing data, I like to see
+# the full range of values.  So, start the y axis at 0 and go 10% above
+# highest value.
+upperLimit = max(vals) + int(max(vals) * .1)
+ax.set_ylim(ymin=0, ymax=upperLimit)
+
+# Another personal preference
 ax.legend(loc='lower right')
 
 fig.savefig(args.output)
