@@ -4,7 +4,7 @@ Redistribution and use in source and binary forms, with or without modification,
 1. Redistributions of source code must retain the above copyright notice
 
 
-simplePlot
+**simplePlot**
 
 The idea behind simplePlot is to create simple tool that will graph a set of numbers
 that came out of some benchmark data of something that runs periodically.  If it
