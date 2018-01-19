@@ -10,3 +10,30 @@ The idea behind simplePlot is to create simple tool that will graph a set of num
 that came out of some benchmark data of something that runs periodically.  If it
 succeeded, the benchmark would write the time (in seconds) in a unique text file.
 simplePlot reads in those files and creates a line chart in time ascending order.
+
+**Example Output**
+
+Here is a sample output:
+
+![alt text](https://github.com/jakojon/public_tools/blob/master/simplePlot/example.png "Example output")
+
+You can get this by:
+
+  simplePlot.py --directory ~/DATA/ "d.*.txt" --label "Processing time in seconds"
+
+If you have the following files in the ~/DATA/ directory
+
+> cat d.1.txt
+  122
+> cat d.2.txt
+  124
+> cat d.3.txt
+  123
+> cat d.4.txt
+  140
+> cat d.5.txt
+  122
+> cat d.6.txt
+  130
+
+NOTE: That the script will sort the files by create time
