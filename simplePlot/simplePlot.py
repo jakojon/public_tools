@@ -11,8 +11,7 @@ simplePlot
 The idea behind simplePlot is to create simple tool that will graph a set of numbers
 that came out of some benchmark data of something that runs periodically.  If it
 succeeded, the benchmark would write the time (in seconds) in a unique text file.
-
-This script takes those times and create a quick and dirty graph.
+simplePlot reads in those files and creates a line chart in time ascending order.
 =========================
 """
 
