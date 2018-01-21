@@ -1,4 +1,4 @@
-# public_tools
+# John's Public Tools, Code Snippets and Course Repository
 This repository contains small tools, code snippets, and some course work that I don't mind being public.  If you find something useful, feel free to use it.
 
 ## simplePlot - Python3
